@@ -1,0 +1,21 @@
+#Branding {
+    border-style: solid;
+    border-color: #E2BC8A;
+    border-width: 10px;
+    background-color:#E2BC8A;
+}
+
+#Portfolio { 
+    border-style: solid;
+    border-color: #E2BC8A;
+    border-width: 10px;
+    background-color: #C0DEEE;
+}
+
+#Legal {
+    border-style: solid;
+    border-color: #4D4D4D;
+    border-width: 10px;
+    background-color: #4D4D4D;
+    color: #808080;
+}
