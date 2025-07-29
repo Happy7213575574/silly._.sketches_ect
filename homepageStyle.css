@@ -2,7 +2,14 @@
     color: #000000
 }
 
+body {
+    background-color: #E2BC8A;
+    margin: 0;
+    padding: 0;
+}
+
 #Branding {
+    width: 100%;
     border-style: solid;
     border-color: #E2BC8A;
     border-width: 10px;
@@ -14,6 +21,7 @@
 }
 
 #Portfolio { 
+    width: 100%;
     border-style: solid;
     border-color: #E2BC8A;
     border-width: 10px;
@@ -21,6 +29,7 @@
 }
 
 #Legal {
+    width: 100%;
     border-style: solid;
     border-color: #4D4D4D;
     border-width: 10px;
