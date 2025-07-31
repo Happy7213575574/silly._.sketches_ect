@@ -18,7 +18,7 @@
     text-align: center;
     font-size: 50px;
     text-decoration: underline;
-    font-family: Lucida Handwriting, cursive;
+    font-family: "Lucida Handwriting", "pacifico", "cursive";
 }
 
 .FBCCat1 {
@@ -42,6 +42,16 @@
 .Cat2 {
     width: 400px;
     height: 600px;
+    border-style: dashed;
+    border-color: #151E3F;
+    border-width: 10px
+
+}
+
+#text {
+    font-family: "pacifico", "Lucida Handwriting", "cursive";
+    text-shadow: 2px 2px 5px #0B5351;
+    color: #861657;
 }
 
 #Legal {
