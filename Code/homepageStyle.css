@@ -21,6 +21,14 @@
     font-family: "Lucida Handwriting", "pacifico", "cursive";
 }
 
+#PricingImages {
+    background-color: #9CA8B7;
+}
+
+#Pricing {
+    font-family: "Ceveat", "pacifico", "cursive";
+}
+
 .FBCCat1 {
     border-color: #6684A5;
     background-color: #6684A5;
@@ -48,7 +56,7 @@
 
 }
 
-#text {
+.text {
     font-family: "pacifico", "Lucida Handwriting", "cursive";
     text-shadow: 2px 2px 5px #0B5351;
     color: #861657;
