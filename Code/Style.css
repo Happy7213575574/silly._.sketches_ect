@@ -23,14 +23,6 @@
     background-color: #9CA8B7;
 }
 
-#PricingC1 {
-    border-style: solid;
-    border-width: 10px;
-    border-color: #A54657;
-    font-size: 19.2px;
-    font-family: "pacifico", "Lucida Handwriting", "cursive";
-}
-
 .Cat1 {
     border-color: #A54657;
     background-color: #A54657;
@@ -38,7 +30,33 @@
     border-width: 10px;
     width: 300px;
     height: 500px;
+}
 
+#PricingC1 {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #A54657;
+    font-size: 19.01px;
+    font-family: "pacifico", "Lucida Handwriting", "cursive";
+    margin-bottom: 8.75px;
+}
+
+.Dog1 {
+    width: 300px;
+    height: 500px;
+    border-style: solid;
+    border-color: #D16666;
+    border-width: 10px;
+    margin-top: 8.75px;
+}
+
+#PricingD1 {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #D16666;
+    font-size: 20.44px;
+    font-family: "pacifico", "Lucida Handwriting", "cursive";
+    margin-bottom: 8.75px;
 }
 
 #Portfolio { 
@@ -55,7 +73,7 @@
     height: 600px;
     border-style: dashed;
     border-color: #151E3F;
-    border-width: 10px
+    border-width: 10px;
 
 }
 
