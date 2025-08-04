@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     vertical-align: bottom;
+    overflow-x: hidden;
 }
 
 #Branding {
@@ -21,40 +22,40 @@
 
 #PricingImages {
     background-color: #9CA8B7;
+    /*margin-bottom:8.75px*/
 }
 
 .Cat1 {
-    border-color: #A54657;
-    background-color: #A54657;
+    border-color: #CCCCFF;
     border-style: solid;
     border-width: 10px;
     width: 300px;
     height: 500px;
+    margin-top: 8.75px;
 }
 
 #PricingC1 {
     border-style: solid;
     border-width: 10px;
-    border-color: #A54657;
-    font-size: 19.01px;
+    border-color: #CCCCFF;
+    font-size: 19.29px;
     font-family: "pacifico", "Lucida Handwriting", "cursive";
-    margin-bottom: 8.75px;
+    /*margin-bottom: 8.75px;*/
 }
 
 .Dog1 {
     width: 300px;
     height: 500px;
     border-style: solid;
-    border-color: #D16666;
+    border-color: #6684A5;
     border-width: 10px;
-    margin-top: 8.75px;
 }
 
 #PricingD1 {
     border-style: solid;
     border-width: 10px;
-    border-color: #D16666;
-    font-size: 20.44px;
+    border-color: #6684A5;
+    font-size: 20.29px;
     font-family: "pacifico", "Lucida Handwriting", "cursive";
     margin-bottom: 8.75px;
 }
@@ -65,16 +66,23 @@
     border-color: #E2BC8A;
     border-width: 10px;
     background-color: #C0DEEE;
-    margin-top: 8.75px;
 }
 
 .Cat2 {
-    width: 400px;
-    height: 600px;
+    width: 250px;
+    height: 350px;
     border-style: dashed;
     border-color: #151E3F;
     border-width: 10px;
 
+}
+
+.Bird1 {
+    width: 250px;
+    height: 350px;
+    border-style: dashed;
+    border-color: #151E3F;
+    border-width: 10px;
 }
 
 .text {
