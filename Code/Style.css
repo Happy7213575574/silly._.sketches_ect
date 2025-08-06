@@ -20,11 +20,11 @@
 } /*Sets the style for the top section/branding*/
 
 #PricingImages {
-    background-color: #9CA8B7;
-    overflow: visible;
-    height: auto;
-    max-height: none;
-}
+    background-color: #9CA8B7; /*Sets the background color*/
+    overflow: visible; /*Forces the excess to be visable*/
+    height: auto; /*Allows the element to select a height*/
+    max-height: none; /*Ensures there is not max height*/
+} /*Sets the style for the images showing off prices*/
 
 .Cat1 {
     border-color: #CCCCFF;
