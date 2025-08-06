@@ -1,11 +1,12 @@
+/*ALL colours are in HEX*/
 *,* {
-    border: 0;
-    outline: 0;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: #9CA8B7;
-}
+    border: 0; /*sets the border to zero*/
+    outline: 0; /* Sets the outline to zero*/
+    margin: 0; /*Sets the margin to zero*/
+    padding: 0; /*Sets the padding to zero*/
+    overflow-x: hidden; /*Removes any side overflow (exta sections*/
+    background-color: #9CA8B7; /*Sets the background color*/
+} /*Sets the desgin for the whole page/all elements unless the indival element says otherwise*/
 
 .Branding {
     border-style: solid;
