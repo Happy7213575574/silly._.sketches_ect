@@ -9,15 +9,15 @@
 } /*Sets the desgin for the whole page/all elements unless the indival element says otherwise*/
 
 .Branding {
-    border-style: solid;
-    border-color: #E2BC8A;
-    border-width: 10px;
-    background-color:#E2BC8A;
-    text-align: center;
-    font-size: 50px;
-    text-decoration: underline;
-    font-family: "Lucida Handwriting", "pacifico", "cursive";
-}
+    border-style: solid; /*Sets the border to a solid block*/
+    border-color: #E2BC8A; /*Sets the border color*/
+    border-width: 10px; /*Sets the border width to 10 pixels*/
+    background-color:#E2BC8A; /*Sets the background color (same as border color)*/
+    text-align: center; /*Puts the text in the centre of the screen*/
+    font-size: 50px; /*Sets the font size to 50 pixels*/
+    text-decoration: underline; /*Underlines the text*/
+    font-family: "Lucida Handwriting", "pacifico", "cursive"; /*Defines what style the text should be in, using mutiple fonts as fallbacks*/
+} /*Sets the style for the top section/branding*/
 
 #PricingImages {
     background-color: #9CA8B7;
