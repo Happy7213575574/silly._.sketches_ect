@@ -27,13 +27,13 @@
 } /*Sets the style for the images showing off prices*/
 
 .Cat1 {
-    border-color: #CCCCFF;
-    border-style: solid;
-    border-width: 10px;
-    width: 300px;
-    height: 500px;
-    margin-top: 8.75px;
-}
+    border-color: #CCCCFF; /*Sets a border color*/
+    border-style: solid; /*Ensures the that the border outline is solid*/
+    border-width: 10px; /*Set the border width to 10 pixels*/
+    width: 300px; /*Sets the images width to 300 pixels*/
+    height: 500px; /*Sets the images height to 500 pixels*/
+    margin-top: 8.75px; /*Sets a margin of 8.75 pixels*/
+} /*Does styling for the first cat images*/
 
 #PricingC1 {
     border-style: solid;
