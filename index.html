@@ -3,51 +3,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="revised" content="Wedesday 6th August 2025, 17:10"> <!--This is the time I have publshed the change from the local machine-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="refresh" content="30s">
-    <meta name ="keywords" content="Art, images, hand drawn">
-    <meta name="description" content="A website for a small business to sell drawing commissions.">
-    <meta name ="author" content="Andrew Nicholson, websitedevelopmentdesigner@gmail.com">
-    <link rel="stylesheet" href="Code/Style.css"> 
-    <link rel="icon" type="image/jpg" href="Images/TTLOGO.jpg">
-    <title>Silly._.Sketches.Ect</title>
+    <meta charset="UTF-8"> <!--Defines the character set used in this case UTF 8 (Universal Text Format)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Makes the site responsive-->
+    <meta name="revised" content="Wedesday 6th August 2025, 17:27"> <!--This is the time I have publshed the change from the local machine-->
+    <meta http-equiv="refresh" content="30s"> <!--Make the browser refresh the site every 30 seconds-->
+    <meta name ="keywords" content="Art, images, hand drawn"> <!--Used for site scrapping by browsers and voice assistants, define what the site is about-->
+    <meta name="description" content="A website for a small business to sell drawing commissions."> <!-- A simple description of the site-->
+    <meta name ="author" content="Andrew Nicholson, websitedevelopmentdesigner@gmail.com"> <!--The developers infomation, DO NOT USE personal email-->
+    <link rel="stylesheet" href="Code/Style.css"> <!--When the styling comes from-->
+    <link rel="icon" type="image/jpg" href="Images/TTLOGO.jpg"> <!--Favcon (small image in the browser window)-->
+    <title>Silly._.Sketches.Ect</title> <!--Changes the text in the browser-->
 </head>
 
 <body>
-    <div class="Branding" title="Branding">
+    <div class="Branding" title="Branding"> <!--First element, shows branding, title apperas when section is hovered over and class links to stlying-->
         <!--This will be where logo and brand name will be-->
-        <strong class="Branding">Silly Sketches Ect</strong>
-        <br>
-        <img src="Images/LOGO.jpg" alt="An error has occured." title="Logo" width="250" height="250" id="Logo">
-    </div>
+        <strong class="Branding">Silly Sketches Ect</strong> <!--Makes the top text bold-->
+        <br> <!--Makes the next bit appear on a new line--> 
+        <img src="Images/LOGO.jpg" alt="An error has occured." title="Logo" width="250" height="250" id="Logo"> <!--Puts a brand image in-->
+    </div> <!--End of class-->
 
-    <div id="PricingImages">
-        <h2 class="text" id="text1">The image on the inside is the drawing and the image outside is the reference</h2>
-        <img src="Images/DOG1Ref.jpg" alt="An error has occured." title="Full body sketch example." class="Dog1"><img src="Images/DOG1SketchColourless.jpg" alt="An error has occured." title="Full body sketch example." class="Dog1">
-        <br>
-        <span id="PricingD1">For a headshot sketch, like the example above, it is £5.</span>
-        <br>
-        <img src="Images/CAT1Ref.jpg" alt="An error has occured." title="Full body coloured example." class="Cat1"><img src="Images/CAT1Dig.jpg" alt="An error has occured." title="Full body coloured example." class="Cat1">
-        <br>
-        <span id="PricingC1">For a headshot coloured, like the example above, it is £8.</span>
-        <br>
-    </div>
+    <div id="PricingImages"> <!--Makes the section styled, links to style.css-->
+        <h2 class="text" id="text1">The image on the inside is the drawing and the image outside is the reference</h2> <!--Puts the section header on, class and id are used seperatly for different styling options in style.css-->
+        <img src="Images/DOG1Ref.jpg" alt="An error has occured." title="Full body sketch example." class="Dog1"><img src="Images/DOG1SketchColourless.jpg" alt="An error has occured." title="Full body sketch example." class="Dog1"> <!--Puts the images on the screen-->
+        <br> <!--Makes the next bit appear on a new line-->
+        <span id="PricingD1">For a headshot sketch, like the example above, it is £5.</span> <!--Allows for text styling seperate from other text--> 
+        <br> <!--Makes the next bit appear on a new line-->
+        <img src="Images/CAT1Ref.jpg" alt="An error has occured." title="Full body coloured example." class="Cat1"><img src="Images/CAT1Dig.jpg" alt="An error has occured." title="Full body coloured example." class="Cat1"> <!--Puts the images on the screen-->
+        <br> <!--Makes the next bit appear on a new line-->
+        <span id="PricingC1">For a headshot coloured, like the example above, it is £8.</span> <!--Allows for text styling seperate from other text-->
+        <br> <!--Makes the next bit appear on a new line-->
+    </div> <!--End of class-->
 
     <div id="Portfolio" title="Portfolio" class="PortColor">
         <h2 class="text PortColor" id="text2">Image on the right is the reference and any image(s) on the left are the drawing(s)</h2>
-        <br>
-        <pre class="PortColor">
+        <br> <!--Makes the next bit appear on a new line-->
+        <pre class="PortColor"> <!--Used so that formating can be done within the HTML instead of reperating the same bit of text-->
 <img src="Images/CAT2Dig.jpg" alt="An error has occured." title="Full body coloured example." class="Cat2 PortColor"><img src="Images/CAT2Ref.jpg" alt="An error has occured." title="Full body coloured example." class="Cat2 PortColor">                  <img src="Images/BIRD1SketchColourless.jpg" alt="An error has occured." title="Full body sketch example." class="Bird1 PortColor"><img src="Images/BRID1Ref.jpg" alt="An error has occured." title="Full body sketch example." class="Bird1 PortColor">
         </pre>
-    </div>
+    </div> <!--End of class-->
 
-    <div id="Legal" title="Legal" class="PortColor">
+    <div id="Legal" title="Legal" class="PortColor"> <!--Being used for know issues and legal infomation-->
         <!--This will have credits and any legal infomation that is required, will be at the very bottom-->
         This website is best viewed on a laptop/computer or landscape on a phone.
-    </div>
+    </div> <!--End of class-->
 
 </body>
 </html>
