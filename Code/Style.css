@@ -36,13 +36,12 @@
 } /*Does styling for the first cat images*/
 
 #PricingC1 {
-    border-style: solid;
-    border-width: 10px;
-    border-color: #CCCCFF;
-    font-size: 19.29px;
-    font-family: "pacifico", "Lucida Handwriting", "cursive";
-    /*margin-bottom: 8.75px;*/
-}
+    border-style: solid; /*Sets the border style to a solid block*/
+    border-width: 10px; /*Sets the border width to 10 pixels*/
+    border-color: #CCCCFF; /*Sets the border color*/
+    font-size: 19.29px; /*Sets the font size*/
+    font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
+} /*Sets the style of the Pricing text below the first cat iamges*/
 
 .Dog1 {
     width: 300px;
