@@ -73,13 +73,12 @@
 } /*Sets the color for the portolio*/
 
 .Cat2 {
-    width: 250px;
-    height: 350px;
-    border-style: dashed;
-    border-color: #151E3F;
-    border-width: 10px;
-
-}
+    width: 250px; /*Sets the width to 250 pixels*/
+    height: 350px; /*Sets the hieght to 350 pixels*/
+    border-style: dashed; /*Sets the border to a dashed line*/
+    border-color: #151E3F; /*Sets the border color*/
+    border-width: 10px; /*Sets a border width of 10 pixels*/
+} /*Sets the styling for the second cat images*/
 
 .Bird1 {
     width: 250px;
