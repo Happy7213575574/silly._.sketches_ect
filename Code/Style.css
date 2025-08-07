@@ -44,12 +44,12 @@
 } /*Sets the style of the Pricing text below the first cat iamges*/
 
 .Dog1 {
-    width: 300px;
-    height: 500px;
-    border-style: solid;
-    border-color: #6684A5;
-    border-width: 10px;
-}
+    width: 300px; /*Sets the width to 300 pixels*/
+    height: 500px; /*Sets the height to 500 pixels*/
+    border-style: solid; /*Sets the border to s solid block*/
+    border-color: #6684A5; /*Sets the border color*/
+    border-width: 10px; /*Sets a border width of 10 pixels*/
+} /*Sets style for the first dog images*/
 
 #PricingD1 {
     border-style: solid;
