@@ -89,10 +89,10 @@
 } /*Sets the styling for the first bird images*/
 
 .text {
-    font-family: "pacifico", "Lucida Handwriting", "cursive";
-    text-shadow: 2px 2px 5px #0B5351;
-    color: #861657;
-}
+    font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
+    text-shadow: 2px 2px 5px #0B5351; /*Gives the text a shadow*/
+    color: #861657; /*Sets the color*/
+} /*Sets the styling for text accross the site, unless done seperatly*/
 
 #Legal {
     width: 100%;
