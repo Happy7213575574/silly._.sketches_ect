@@ -20,7 +20,7 @@
     border-style: solid; /*Sets the border to a solid block*/
     border-color: #E2BC8A; /*Sets the border color*/
     border-width: 10px; /*Sets the border width to 10 pixels*/
-    background-color:#E2BC8A; /*Sets the background color (same as border color)*/
+    background-color: #E2BC8A; /*Sets the background color (same as border color)*/
     text-align: center; /*Puts the text in the centre of the screen*/
     font-size: 50px; /*Sets the font size to 50 pixels*/
     text-decoration: underline; /*Underlines the text*/
@@ -53,6 +53,10 @@
     font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
     margin-bottom: 8.75px; /*Sets a bottom margin of 8.75 pxiels, to prevent overlap*/
 } /*Sets the style for the text below the first dog images*/
+
+.ContactInfo {
+    background-color: #E2BC8A; /*Sets the background color (same as border color)*/
+}
 
 .Cat1 {
     border-color: #CCCCFF; /*Sets a border color*/
