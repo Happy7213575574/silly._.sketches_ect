@@ -39,8 +39,6 @@
 }
 
 .Dog1 {
-    /*width: 300px; /*Sets the width to 300 pixels*/
-    /*height: 500px; /*Sets the height to 500 pixels*/
     border-style: solid; /*Sets the border to a solid block*/
     border-color: #6684A5; /*Sets the border color*/
     border-width: 10px; /*Sets a border width of 10 pixels*/
@@ -75,7 +73,6 @@
     border-color: #E2BC8A; /*Sets the border color*/
     border-width: 10px; /*Sets a border width of 10 pixels*/
     background-color: #C0DEEE; /*Sets the background color*/
-    /*margin-top: 9.1px; /*Sets the top margin to 9.1 pixels*/
 } /*Sets the styling for the portfolio*/
 
 .PortColor {
