@@ -7,6 +7,12 @@
     background-color: #9CA8B7; /*Sets the background color*/
 } /*Sets the desgin for the whole page/all elements unless the indival element says otherwise*/
 
+.text {
+    font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
+    text-shadow: 2px 2px 5px #0B5351; /*Gives the text a shadow*/
+    color: #861657; /*Sets the color*/
+} /*Sets the styling for text accross the site, unless done seperatly*/
+
 .Branding {
     border-style: solid; /*Sets the border to a solid block*/
     border-color: #E2BC8A; /*Sets the border color*/
@@ -30,31 +36,6 @@
     height: 500px; /*Sets the images height to 500 pixels*/
 }
 
-.Snake1 {
-    border-color: #A54657; /*Sets a border color*/
-    border-style: solid; /*Ensures the that the border outline is solid*/
-    border-width: 10px; /*Set the border width to 10 pixels*/
-    width: 300px; /*Sets the images width to 300 pixels*/
-    height: 500px; /*Sets the images height to 500 pixels*/
-}
-
-.Cat1 {
-    border-color: #CCCCFF; /*Sets a border color*/
-    border-style: solid; /*Ensures the that the border outline is solid*/
-    border-width: 10px; /*Set the border width to 10 pixels*/
-    /*width: 300px; /*Sets the images width to 300 pixels*/
-    /*height: 500px; /*Sets the images height to 500 pixels*/
-    margin-top: 8.75px; /*Sets a margin of 8.75 pixels*/
-} /*Does styling for the first cat images*/
-
-#PricingC1 {
-    border-style: solid; /*Sets the border style to a solid block*/
-    border-width: 10px; /*Sets the border width to 10 pixels*/
-    border-color: #CCCCFF; /*Sets the border color*/
-    font-size: 19.29px; /*Sets the font size*/
-    font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
-} /*Sets the style of the Pricing text below the first cat iamges*/
-
 .Dog1 {
     /*width: 300px; /*Sets the width to 300 pixels*/
     /*height: 500px; /*Sets the height to 500 pixels*/
@@ -71,6 +52,21 @@
     font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
     margin-bottom: 8.75px; /*Sets a bottom margin of 8.75 pxiels, to prevent overlap*/
 } /*Sets the style for the text below the first dog images*/
+
+.Cat1 {
+    border-color: #CCCCFF; /*Sets a border color*/
+    border-style: solid; /*Ensures the that the border outline is solid*/
+    border-width: 10px; /*Set the border width to 10 pixels*/
+    margin-top: 8.75px; /*Sets a margin of 8.75 pixels*/
+} /*Does styling for the first cat images*/
+
+#PricingC1 {
+    border-style: solid; /*Sets the border style to a solid block*/
+    border-width: 10px; /*Sets the border width to 10 pixels*/
+    border-color: #CCCCFF; /*Sets the border color*/
+    font-size: 19.29px; /*Sets the font size*/
+    font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
+} /*Sets the style of the Pricing text below the first cat iamges*/
 
 #Portfolio { 
     border-style: solid; /*Sets the border to a solid block*/
@@ -99,12 +95,6 @@
     border-color: #151E3F; /*Sets the border color*/
     border-width: 10px; /*Sets a border width of 10 pixels*/
 } /*Sets the styling for the first bird images*/
-
-.text {
-    font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
-    text-shadow: 2px 2px 5px #0B5351; /*Gives the text a shadow*/
-    color: #861657; /*Sets the color*/
-} /*Sets the styling for text accross the site, unless done seperatly*/
 
 #Legal {
     border-style: solid; /*Sets a solid block for the border*/
