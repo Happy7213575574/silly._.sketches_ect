@@ -1,4 +1,7 @@
-/*ALL colours are in HEX*/
+/*
+ALL colours are in HEX
+Indented sections are subsections of non-indented sections
+*/
 *,* {
     border: 0; /*Sets the border to zero*/
     outline: 0; /*Sets the outline to zero*/
