@@ -1,10 +1,12 @@
 /*ALL colours are in HEX*/
 *,* {
-    border: 0; /*sets the border to zero*/
-    outline: 0; /* Sets the outline to zero*/
-    margin: 0; /*Sets the margin to zero*/
+    border: 0; /*Sets the border to zero*/
+    outline: 0; /*Sets the outline to zero*/
+    margin-left: 0; /*Sets the left margin to zero*/
+    margin-top: 0; /*Sets the top margin to zero*/ 
+    margin-bottom: 0; /*Sets the bottom margin to zero*/
     padding: 0; /*Sets the padding to zero*/
-    background-color: #9CA8B7; /*Sets the background color*/
+    background-color: #E9FFDB; /*Sets the background color*/
 } /*Sets the desgin for the whole page/all elements unless the indival element says otherwise*/
 
 .text {
@@ -24,7 +26,7 @@
     font-family: "Lucida Handwriting", "pacifico", "cursive"; /*Defines what style the text should be in, using mutiple fonts as fallbacks*/
 } /*Sets the style for the top section/branding*/
 
-#PricingImages {
+.PricingImages {
     background-color: #9CA8B7; /*Sets the background color*/
     overflow: visible; /*Forces the excess to be visable*/
     height: auto; /*Allows the element to select a height*/
@@ -73,7 +75,7 @@
     border-color: #E2BC8A; /*Sets the border color*/
     border-width: 10px; /*Sets a border width of 10 pixels*/
     background-color: #C0DEEE; /*Sets the background color*/
-    margin-top: 9.1px; /*Sets the top margin to 9.1 pixels*/
+    /*margin-top: 9.1px; /*Sets the top margin to 9.1 pixels*/
 } /*Sets the styling for the portfolio*/
 
 .PortColor {
