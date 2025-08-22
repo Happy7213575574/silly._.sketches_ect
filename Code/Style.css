@@ -39,8 +39,9 @@
 } /*Sets the style for the images showing off prices*/
 
 .PRImages {
-    width: 300px; /*Sets the images width to 300 pixels*/
+    /*width: 300px; /*Sets the images width to 300 pixels*/
     height: 500px; /*Sets the images height to 500 pixels*/
+    width: 22%;
 }
 
 .Dog1 {
@@ -53,9 +54,9 @@
     border-style: solid; /*Sets the border to a solid block*/
     border-width: 10px; /*Sets a border width of 10 pixels*/
     border-color: #6684A5; /*Sets the border color*/
-    font-size: 20.29px; /*Sets the font size to 20.29 pixels*/
+    font-size: 114%; /*Sets the font size to 20.29 pixels*/
     font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
-    margin-bottom: 8.75px; /*Sets a bottom margin of 8.75 pxiels, to prevent overlap*/
+    margin-bottom: 7.75px; /*Sets a bottom margin of 8.75 pxiels, to prevent overlap*/
 } /*Sets the style for the text below the first dog images*/
 
 .ContactInfo {
@@ -73,7 +74,7 @@
     border-style: solid; /*Sets the border style to a solid block*/
     border-width: 10px; /*Sets the border width to 10 pixels*/
     border-color: #CCCCFF; /*Sets the border color*/
-    font-size: 19.29px; /*Sets the font size*/
+    font-size: 108.25%; /*Sets the font size*/
     font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
 } /*Sets the style of the Pricing text below the first cat iamges*/
 
