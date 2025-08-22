@@ -35,8 +35,9 @@
 } /*Sets the style for the images showing off prices*/
 
 .PRImages {
-    width: 300px; /*Sets the images width to 300 pixels*/
+    /*width: 300px; /*Sets the images width to 300 pixels*/
     height: 500px; /*Sets the images height to 500 pixels*/
+    width: 24.5655%;
 }
 
 .Dog1 {
