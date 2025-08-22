@@ -16,6 +16,17 @@
     color: #861657; /*Sets the color*/
 } /*Sets the styling for text accross the site, unless done seperatly*/
 
+#Restriction {
+    font-size: 10px;
+    color: #861657;
+}
+
+.Text3 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #E2BC8A;
+}
+
 .Branding {
     border-style: solid; /*Sets the border to a solid block*/
     border-color: #E2BC8A; /*Sets the border color*/
@@ -30,14 +41,11 @@
 .PricingImages {
     background-color: #9CA8B7; /*Sets the background color*/
     overflow: visible; /*Forces the excess to be visable*/
-    height: auto; /*Allows the element to select a height*/
-    max-height: none; /*Ensures there is not max height*/
 } /*Sets the style for the images showing off prices*/
 
 .PRImages {
-    /*width: 300px; /*Sets the images width to 300 pixels*/
+    width: 300px; /*Sets the images width to 300 pixels*/
     height: 500px; /*Sets the images height to 500 pixels*/
-    width: 24.5655%;
 }
 
 .Dog1 {
