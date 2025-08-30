@@ -10,6 +10,12 @@
     background-color: #E9FFDB; /*Sets the background color*/
 } /*Sets the desgin for the whole page/all elements unless the indival element says otherwise*/
 
+#InstaQR {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
 .text {
     font-family: "pacifico", "Lucida Handwriting", "cursive"; /*Sets the font, using mutiple for fallback*/
     text-shadow: 2px 2px 5px #0B5351; /*Gives the text a shadow*/
