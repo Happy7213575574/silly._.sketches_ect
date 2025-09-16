@@ -1,4 +1,4 @@
-# Trademarks
+#Trademarks
 
 The Silly Sketches Ect name, logo, and associated visual identity are trademarks of Shelby Elliot.  
 These trademarks may not be used without prior written permission.  
