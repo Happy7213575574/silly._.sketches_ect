@@ -142,7 +142,7 @@
     border-width: 10px; /*Sets a border width of 10 pixels*/
 } /*Sets the styling for the first bird images*/
 
-#Legal {
+.Legal {
     border-style: solid; /*Sets a solid block for the border*/
     border-color: #4D4D4D; /*Sets the border color*/
     border-width: 10px; /*Sets the border width to 10 pixels*/
